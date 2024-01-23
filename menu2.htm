@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script type="text/javascript" src="flashobject.js"></script>
+<script type="text/javascript" src="adjustmenu.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>sans titre 1</title>
+<style type="text/css">
+a {
+	color: #FFC186;
+}
+a:visited {
+	color: #FFC186;
+}
+a:active {
+	color: #FFC186;
+}
+a:hover {
+	color: #FFC186;
+}
+</style>
+</head>
+
+<Body onload="AdjustMenu('xmas-leaf','false',0,0)" onresize="AdjustMenu('xmas-leaf','false',0,0)" style="background-image: url('vxmas-light.gif'); background-attachment: fixed; color: #FFC186; background-color: #FFC186;">
+
+<div id="xmas-leaf_id" >SWFMenu Placeholder.</div>
+<script type="text/javascript">
+var fo = new FlashObject("test2.swf","xmas-leaf","700","32","6","#F0F0F0");
+    fo.addParam("menu","false");
+    fo.addParam("quality","best");
+    fo.addParam("scale","noscale");
+    fo.addParam("salign","LT");
+    fo.addParam("wmode", "transparent");
+    fo.write("xmas-leaf_id");
+document.getElementById('xmas-leaf').style.width="700px";
+document.getElementById('xmas-leaf').style.position="absolute";
+document.getElementById('xmas-leaf').style.zIndex="10"
+</script>
+
+</body>
+
+</html>
